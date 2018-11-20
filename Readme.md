@@ -33,8 +33,8 @@ PM2.5 Emissions Data (\color{red}{\verb|summarySCC_PM25.rds|}summarySCC_PM25.rds
 You can read each of the two files using the readRDS() function in R. For example, reading in each file can be done with the following code:
 
 ## This first line will likely take a few seconds. Be patient!
-NEI <- readRDS("summarySCC_PM25.rds")
-SCC <- readRDS("Source_Classification_Code.rds")
+- NEI <- readRDS("summarySCC_PM25.rds")
+- SCC <- readRDS("Source_Classification_Code.rds")
 as long as each of those files is in your current working directory (check by calling dir() and see if those files are in the listing).
 
 ## Assignment
@@ -50,7 +50,7 @@ You must address the following questions and tasks in your exploratory analysis.
 5. How have emissions from motor vehicle sources changed from 1999-2008 in Baltimore City?
 6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
 
-##Making and Submitting Plots
+## Making and Submitting Plots
 For each plot you should
 
 - Construct the plot and save it to a PNG file.
